@@ -1,0 +1,1 @@
+This is a sample project for [Keyboard Shortcut Recorder for UIKit](https://github.com/jbrayton/KeyboardShortcutRecorderForUIKit).

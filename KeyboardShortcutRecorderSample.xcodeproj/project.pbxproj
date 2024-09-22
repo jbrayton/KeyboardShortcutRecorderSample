@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		21BD89F12CA066C70076E76A /* KeyboardShortcutRecorderForUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 21BD89F02CA066C70076E76A /* KeyboardShortcutRecorderForUIKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		21BD89D72CA0654A0076E76A /* KeyboardShortcutRecorderSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardShortcutRecorderSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21BD89F12CA066C70076E76A /* KeyboardShortcutRecorderForUIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = KeyboardShortcutRecorderSample;
 			packageProductDependencies = (
+				21BD89F02CA066C70076E76A /* KeyboardShortcutRecorderForUIKit */,
 			);
 			productName = KeyboardShortcutRecorderSample;
 			productReference = 21BD89D72CA0654A0076E76A /* KeyboardShortcutRecorderSample.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 21BD89CE2CA0654A0076E76A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				21BD89EF2CA066C70076E76A /* XCRemoteSwiftPackageReference "KeyboardShortcutRecorderForUIKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 21BD89D82CA0654A0076E76A /* Products */;
 			projectDirPath = "";
@@ -160,6 +169,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.goldenhillsoftware.KeyboardShortcutRecorderSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -188,6 +201,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.goldenhillsoftware.KeyboardShortcutRecorderSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21BD89EF2CA066C70076E76A /* XCRemoteSwiftPackageReference "KeyboardShortcutRecorderForUIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jbrayton/KeyboardShortcutRecorderForUIKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21BD89F02CA066C70076E76A /* KeyboardShortcutRecorderForUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21BD89EF2CA066C70076E76A /* XCRemoteSwiftPackageReference "KeyboardShortcutRecorderForUIKit" */;
+			productName = KeyboardShortcutRecorderForUIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 21BD89CF2CA0654A0076E76A /* Project object */;
 }

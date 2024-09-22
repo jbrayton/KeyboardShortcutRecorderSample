@@ -1,0 +1,15 @@
+{
+  "originHash" : "fb4954f200e9ee785ac1d5c6e7a60daee3561f61d4fa6439a644d537eafff532",
+  "pins" : [
+    {
+      "identity" : "keyboardshortcutrecorderforuikit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jbrayton/KeyboardShortcutRecorderForUIKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c5ddefa8a8a340ca224d3872f04c23b51695a55f"
+      }
+    }
+  ],
+  "version" : 3
+}
