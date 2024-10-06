@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jbrayton/KeyboardShortcutRecorderForUIKit",
       "state" : {
-        "branch" : "main",
-        "revision" : "c5ddefa8a8a340ca224d3872f04c23b51695a55f"
+        "revision" : "5503c6b2c84f8319f3fee184c1b652489e95d38b",
+        "version" : "1.0.1"
       }
     }
   ],
