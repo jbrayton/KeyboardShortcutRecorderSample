@@ -359,7 +359,7 @@
 			repositoryURL = "https://github.com/jbrayton/KeyboardShortcutRecorderForUIKit";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
+				minimumVersion = 1.0.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
